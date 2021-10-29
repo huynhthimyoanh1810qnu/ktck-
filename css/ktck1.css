@@ -1,0 +1,180 @@
+body{
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 16px;
+	width: 1000px;
+	margin: 0 auto;
+	background-image: white;
+}
+/* menu */
+.menu_top{
+	background: #CCFF33;
+	height: 64px;
+}
+.menu_top ul{
+	margin: 0px;
+	padding: 0px;
+}
+.menu_top ul li{
+	list-style: none;
+	float: right;
+}
+.menu_top ul li a{
+	text-decoration: none;
+	display: block;
+	height: 55px;
+	line-height: 55px;
+	padding: 0px 30px 0px 30px;
+	border-right: 0px solid black;
+}
+.menu_top ul li a.trangchu img{
+	vertical-align: middle;
+	
+}
+.menu_top ul li a img{
+	vertical-align: middle;
+	
+}
+.menu_top ul li a.chuyenmau{
+	background: #CCFF33;
+}
+
+.menu_top ul li  a.logo input{
+	width: 300px;
+	height: 35px;
+	border-radius: 20px;
+	border:0;
+	padding-left: 10px;
+	font-size: 15px;
+	vertical-align: middle
+}
+.menu_top ul li  a.logo button{
+	border-radius: 10px;
+}
+.menu_top ul li  a.logo button img{
+	width: 32px;
+	height: auto;
+	vertical-align: middle;
+	border-radius: 10px;
+}
+/*banner*/
+.banner {
+	max-width: 1000px;
+	position: relative;
+	margin: auto;
+  }
+  .qua_phải, .qua_trái {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	padding: 16px;
+	margin-top: -22px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+  }
+  .qua_trái {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+  }
+  .qua_trái:hover, .qua_phải:hover {
+	background-color: rgba(0,0,0,0.8);
+  }
+  .text {
+	color: #f2f2f2;
+	font-size: 15px;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
+	text-align: center;
+  }
+  .numbertext {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+  }
+/*thân*/
+.main{
+	margin-top: 10px;
+}
+/*thân trái*/
+.main .trái{
+	width: 200px;
+
+	float: left;
+	min-height: 400px;
+}
+.main .trái .menu_trái ul{
+	margin: 0px;
+	padding: 0px;
+	border: 1px solid #ccc;
+}
+.main .trái .menu_trái h3{
+	background:  #CCFF33 url("D:\\xampp/htdocs/ktck/images/icons8-menu-48.png") no-repeat 3px;
+	color: black;
+	height: 40px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-indent: 55px;
+	font-size: 20px;
+	line-height: 40px;
+}
+.main .trái .menu_trái ul li{
+	list-style: none;
+}
+.main .trái .menu_trái ul li a{
+	display: block;
+	line-height: 32px;
+	text-decoration: none;
+	text-indent: 30px;
+	border-bottom: 1px solid #ccc;
+	background: url("D:\\xampp/htdocs/ktck/images/icons8-sort-right-30.png") no-repeat;
+}
+/*thân phải*/
+/*  */
+.main .phải{
+	width: 800px;
+	background: #CC99FF;
+	float: left;
+	min-height: 400px;
+}
+.main .phải ul{
+	margin: 0px;
+	padding: 0px;
+}
+.main .phải ul li{
+	list-style: none;
+	clear: left;
+	border-bottom:  2px solid rgb(90, 31, 31);
+	float: left;
+	margin-bottom:  20px;
+	margin-right: 800px;
+	padding-right: 510px;
+}
+.main .phải ul li img{
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.main .phải ul li h2{
+	font-size: 13px;
+	margin-top: 0px;
+	text-align:  right;
+}
+/* thiết css của main phải ở đây */
+
+.footer{
+	background: orange;
+	width: 1000px;
+	text-align: center;
+	height: 60px;
+	color: #000;
+	clear: left;
+	line-height: 60px;
+}
